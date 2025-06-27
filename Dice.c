@@ -15,5 +15,10 @@ int main(){
         printf("Die %d: %d\n", i + 1, dice[i]);
     }
     printf("Total value: %d\n", total);
+    if(total > 7) {
+        printf("You win.\n");
+    } else {
+        printf("You lost.\n");
+    }
     return 0;
 }
